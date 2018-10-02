@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CalculatorTestSuite]">
+  <test name="CalculatorMethods(failed)">
+    <parameter name="suite-name" value="CalculatorTestSuite"/>
+    <parameter name="class-name" value="CalculatorTestClass"/>
+    <groups>
+      <run>
+        <include name="CalculatorMethods1"/>
+        <include name="config"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.epam.tat.unittest.tests.CalculatorTest">
+        <methods>
+          <include name="testDivMethod" invocation-numbers="3"/>
+          <include name="configClass"/>
+          <include name="tearDowmClass"/>
+        </methods>
+      </class> <!-- com.epam.tat.unittest.tests.CalculatorTest -->
+    </classes>
+  </test> <!-- CalculatorMethods(failed) -->
+</suite> <!-- Failed suite [CalculatorTestSuite] -->

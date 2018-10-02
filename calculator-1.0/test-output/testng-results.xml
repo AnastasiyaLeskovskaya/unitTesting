@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="14" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ParallelCalculatorTestSuite" duration-ms="4071" started-at="2017-09-26T12:44:39Z" finished-at="2017-09-26T12:44:43Z">
+    <groups>
+      <group name="parallel">
+        <method signature="CalculatorTest.testParallel()[pri:0, instance:com.epam.tat.unittest.tests.CalculatorTest@2f410acf]" name="testParallel" class="com.epam.tat.unittest.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testParallel1()[pri:0, instance:com.epam.tat.unittest.tests.CalculatorTest@2f410acf]" name="testParallel1" class="com.epam.tat.unittest.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testParallel2()[pri:0, instance:com.epam.tat.unittest.tests.CalculatorTest@2f410acf]" name="testParallel2" class="com.epam.tat.unittest.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testParallel3()[pri:0, instance:com.epam.tat.unittest.tests.CalculatorTest@2f410acf]" name="testParallel3" class="com.epam.tat.unittest.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testParallel4()[pri:0, instance:com.epam.tat.unittest.tests.CalculatorTest@2f410acf]" name="testParallel4" class="com.epam.tat.unittest.tests.CalculatorTest"/>
+      </group> <!-- parallel -->
+    </groups>
+    <test name="ParallelCalculatorMethods" duration-ms="4071" started-at="2017-09-26T12:44:39Z" finished-at="2017-09-26T12:44:43Z">
+      <class name="com.epam.tat.unittest.tests.CalculatorTest">
+        <test-method status="PASS" signature="configClass()[pri:0, instance:com.epam.tat.unittest.tests.CalculatorTest@2f410acf]" name="configClass" is-config="true" duration-ms="32" started-at="2017-09-26T15:44:39Z" description="Method creates instance of testing object with type Calculator." finished-at="2017-09-26T15:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configClass -->
+        <test-method status="PASS" signature="testParallel1()[pri:0, instance:com.epam.tat.unittest.tests.CalculatorTest@2f410acf]" name="testParallel1" duration-ms="2003" started-at="2017-09-26T15:44:39Z" description="To test parallel tests execution" finished-at="2017-09-26T15:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParallel1 -->
+        <test-method status="PASS" signature="testParallel2()[pri:0, instance:com.epam.tat.unittest.tests.CalculatorTest@2f410acf]" name="testParallel2" duration-ms="2006" started-at="2017-09-26T15:44:39Z" description="To test parallel tests execution" finished-at="2017-09-26T15:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParallel2 -->
+        <test-method status="PASS" signature="testParallel()[pri:0, instance:com.epam.tat.unittest.tests.CalculatorTest@2f410acf]" name="testParallel" duration-ms="2003" started-at="2017-09-26T15:44:39Z" description="To test parallel tests execution" finished-at="2017-09-26T15:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParallel -->
+        <test-method status="PASS" signature="testParallel3()[pri:0, instance:com.epam.tat.unittest.tests.CalculatorTest@2f410acf]" name="testParallel3" duration-ms="2003" started-at="2017-09-26T15:44:39Z" description="To test parallel tests execution" finished-at="2017-09-26T15:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParallel3 -->
+        <test-method status="PASS" signature="testParallel4()[pri:0, instance:com.epam.tat.unittest.tests.CalculatorTest@2f410acf]" name="testParallel4" duration-ms="2016" started-at="2017-09-26T15:44:41Z" description="To test parallel tests execution" finished-at="2017-09-26T15:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParallel4 -->
+        <test-method status="PASS" signature="tearDowmClass()[pri:0, instance:com.epam.tat.unittest.tests.CalculatorTest@2f410acf]" name="tearDowmClass" is-config="true" duration-ms="1" started-at="2017-09-26T15:44:43Z" description="Method tears down instance of testing object with type Calculator." finished-at="2017-09-26T15:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowmClass -->
+      </class> <!-- com.epam.tat.unittest.tests.CalculatorTest -->
+    </test> <!-- ParallelCalculatorMethods -->
+  </suite> <!-- ParallelCalculatorTestSuite -->
+  <suite name="CustomSiute" duration-ms="0" started-at="2017-09-26T12:44:43Z" finished-at="2017-09-26T12:44:43Z">
+    <groups>
+    </groups>
+  </suite> <!-- CustomSiute -->
+</testng-results>
